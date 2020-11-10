@@ -39,7 +39,7 @@ export default function LandingPage(props) {
         fixed
         changeColorOnScroll={{
           height: 400,
-          color: "yellow"
+          color: "yellow",
         }}
         {...rest}
       />
@@ -47,7 +47,9 @@ export default function LandingPage(props) {
         <div className={classes.container}>
           <GridContainer>
             <GridItem xs={12} sm={12} md={6}>
-              <h1 className={classes.title}>Build Your Future With <i>Us</i>.</h1>
+              <h1 className={classes.title}>
+                Build Your Future With <i>Us</i>
+              </h1>
               <h4>
                 Serving you with value, precision, quality and reliability.
               </h4>

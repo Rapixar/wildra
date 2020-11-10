@@ -23,7 +23,9 @@ export default function ProductSection() {
         <GridItem xs={12} sm={12} md={8}>
           <h2 className={classes.title}>Let{"'"}s talk services</h2>
           <h5 className={classes.description}>
-            Providing premium management services to our clients around the globe, our horizons are as wide as the touching distance of the sun in our Solar System
+            Providing premium management services to our clients around the
+            globe, our horizons are as wide as the touching distance of the sun
+            in our Solar System
           </h5>
         </GridItem>
       </GridContainer>
@@ -49,7 +51,7 @@ export default function ProductSection() {
           </GridItem>
           <GridItem xs={12} sm={12} md={4}>
             <InfoArea
-              title="Authenticity"
+              title="Security"
               description="Get secured from scammers and fradulent agents when you shield your properties with WildraSecure, a safer way to toggle the locks of your properties"
               icon={Fingerprint}
               iconColor="danger"
