@@ -94,7 +94,7 @@ export default function Header(props) {
           anchor={"right"}
           open={mobileOpen}
           classes={{
-            paper: classes.drawerPaper
+            paper: classes.drawerPaper,
           }}
           onClose={handleDrawerToggle}
         >
@@ -109,7 +109,7 @@ export default function Header(props) {
 }
 
 Header.defaultProp = {
-  color: "yellow"
+  color: "yellow",
 };
 
 Header.propTypes = {
@@ -123,7 +123,7 @@ Header.propTypes = {
     "white",
     "rose",
     "dark",
-    "yellow"
+    "yellow",
   ]),
   rightLinks: PropTypes.node,
   leftLinks: PropTypes.node,
@@ -148,6 +148,6 @@ Header.propTypes = {
       "white",
       "rose",
       "dark",
-    ]).isRequired
-  })
+    ]).isRequired,
+  }),
 };

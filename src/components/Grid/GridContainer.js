@@ -10,14 +10,15 @@ const styles = {
   grid: {
     marginRight: "-15px",
     marginLeft: "-15px",
-    width: "auto"
-  }
+    width: "auto",
+  },
 };
 
 const useStyles = makeStyles(styles);
 
 export default function GridContainer(props) {
   const classes = useStyles();
+  // eslint-disable-next-line no-unused-vars
   const { children, className, color, ...rest } = props;
   return (
     <Grid container {...rest} className={classes.grid + " " + className}>
@@ -27,7 +28,7 @@ export default function GridContainer(props) {
 }
 
 GridContainer.defaultProps = {
-  className: ""
+  className: "",
 };
 
 GridContainer.propTypes = {
@@ -42,5 +43,6 @@ GridContainer.propTypes = {
     "transparent",
     "white",
     "rose",
-    "dark",]),
+    "dark",
+  ]),
 };
